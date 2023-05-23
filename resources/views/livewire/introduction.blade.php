@@ -5,7 +5,7 @@
     <span class="mt-[20px] text-xl">There are three main types of data analytics dashboards:</span>
     <div class="mt-[20px] space-y-[20px] text-lg font-semibold">
         <li>Operational dashboards</li>
-        <li>Tactical dashboards</li>
+        <li>Analytical dashboards</li>
         <li>Strategic dashboards</li>
     </div>
     <!--<div class="mt-[50px] flex flex-row text-lg space-x-5">
