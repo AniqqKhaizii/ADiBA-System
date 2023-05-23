@@ -1,5 +1,3 @@
-@props(['page'])
-
 <!doctype html>
 <html>
 <head>
@@ -10,6 +8,8 @@
 
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.js"></script>
   <script defer src="https://unpkg.com/@alpinejs/focus@3.x.x/dist/cdn.js"></script>
+  <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
   @livewireStyles
 </head>

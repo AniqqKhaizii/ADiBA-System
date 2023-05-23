@@ -10,6 +10,7 @@ class Recommender extends Component
     public $position = '';
     public $dashboardType;
 
+
     public function submit()
     {
         if ($this->industry == "" || $this->position == "") {
