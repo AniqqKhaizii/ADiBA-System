@@ -4,7 +4,7 @@
             <img src="{{ asset('images/Logo.png') }}">
        </div>
        <div>
-            <div class="flex flex-row pt-[30pt] pl-[340px] text-[#cf3434] font-sans font-bold text-xl">
+            <div class="flex flex-row pt-[30pt] pl-[480px] text-[#500000] font-sans font-bold text-xl">
                 <a href="{{ url('/') }}"  class="underline underline-offset-8">
                     Home
                 </a>
@@ -27,42 +27,42 @@
             </div> -->
        </div>
     </div>
-    <div class="bg-[#cf3434] h-[100px] w-fill">
+    <div class="bg-[#5C001F] h-[100px] w-fill">
         <div class="text-white font-bold my-[30px] text-center text-[30px]">
             Your Strategic Partner Towards IR 4.0
         </div>
     </div>
     <div class="flex flex-row">
         <div class="flex flex-col mt-[20px]">
-            <div class="text-[#cf3434] font-bold my-[33px] ml-[60px] text-6xl">
+            <div class="text-[#5C001F] font-bold my-[33px] ml-[100px] text-6xl">
                 Accelerating Digital
             </div>
-            <div class="text-black font-bold ml-[60px] text-6xl">
+            <div class="text-black font-bold ml-[100px] text-6xl">
                 Transformation Through
             </div>
-            <div class="text-black font-bold my-[33px] ml-[60px] text-6xl">
+            <div class="text-black font-bold my-[33px] ml-[100px] text-6xl">
                 ADiBA
             </div>
         </div>
         <div class="ml-[250px] mt-[30px] items-right">
-            <img class="w-[500px] h-[300px] border rounded-xl" src="{{ asset('images/laptop.jpg') }}">
+            <img class="w-[500px] h-[300px] border rounded-xl ml-[100px]" src="{{ asset('images/laptop.jpg') }}">
         </div>
     </div>
-    <div class="bg-[#cf3434] h-[250px] w-fill mt-[40px]">
+    <div class="bg-[#5C001F] h-[250px] w-fill mt-[40px]">
         <div class="flex flex-row">
             <div class="text-white border-0 w-[1250px] font-semibold my-[23px] ml-[50px] text-xl">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore hic exercitationem itaque adipisci nesciunt veniam inventore reprehenderit doloribus. Omnis corporis reiciendis ab corrupti adipisci recusandae, totam molestias voluptatibus nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quam distinctio eos, quae aperiam necessitatibus velit vel, numquam at qui repellat explicabo repellendus consequatur deserunt ex provident beatae minus odit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptate quia nihil laborum sunt! Blanditiis iure voluptatibus placeat repellat odio ipsa dolor repudiandae vero voluptates eos aut, rerum, consectetur atque? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione culpa quibusdam expedita beatae sapiente. Repellat, minus praesentium. Recusandae fugit, dignissimos sapiente aliquam ex voluptatum.
             </div>
-            <div class="text-white font-bold my-[83px] ml-[20px] text-6xl">
+            <div class="text-white font-bold my-[83px] ml-[100px] text-6xl">
                 About
             </div>
         </div>
     </div>
     <div class="flex flex-col mt-[40px]">
-       <div class="font-bold text-4xl ml-[736px]">
+       <div class="font-bold text-4xl ml-[876px]">
             Services
        </div>
-       <div class="flex flex-row mt-[40px] ml-[30px]">
+       <div class="flex flex-row mt-[40px] ml-[170px]">
             <div class="flex flex-col border rounded-lg ml-[30px] w-[350px] h-[390px] text-center items-center py-[10px]">
                 <span class="font-bold text-2xl">
                     Tutorials and Guidelines
@@ -132,7 +132,7 @@
             </div>
        </div>
     </div>
-    <div class="flex flex-col bg-[#cf3434] h-fill w-fill mt-[40px] items-center">
+    <div class="flex flex-col bg-[#5C001F] h-fill w-fill mt-[40px] items-center">
         <div class="text-white font-bold my-[33px] text-center text-2xl">
             Trusted by Industries and Agencies of the World's Best Companies
         </div>
