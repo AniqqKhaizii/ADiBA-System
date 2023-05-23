@@ -20,7 +20,7 @@
             <img src="{{ asset('images/Logo.png') }}">
        </div>
        <div>
-            <div class="flex flex-row pt-[30pt] pl-[340px] text-[#cf3434] font-sans font-bold text-xl">
+            <div class="flex flex-row pt-[30pt] pl-[340px] text-[#5C001F] font-sans font-bold text-xl">
                 <a href="{{ url('/') }}" class="underline underline-offset-8">
                     Home
                 </a>
@@ -36,14 +36,14 @@
             </div>
        </div>
     </div>
-    <div class="bg-[#cf3434] h-[100px] w-fill">
+    <div class="bg-[#5C001F] h-[100px] w-fill">
         <div class="text-white font-bold my-[27px] ml-[40px] text-4xl">
             Services
         </div>
     </div>
     <div class="flex flex-row">
         <div class="bg-zinc-800 w-[300px]">
-            <div class="flex flex-col mx-[20px] my-[30px]">
+            <div class="flex flex-col mx-[20px] my-[30px] min-h-0 md:min-h-screen">
                 <button class="flex flex-row text-xl text-white text-center font-bold py-[10px] rounded-lg w-fill h-[50px]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255,255,255,255);transform: ;msFilter:;"><path d="M3 5v14c0 2.201 1.794 3 3 3h15v-2H6.012C5.55 19.988 5 19.806 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3z"></path></svg>
                     <a href="{{ url('introduction') }}" class="{{  (Route::getCurrentRoute()->uri() == 'introduction') ? 'text-[#cf3434] ml-[15px]' : 'hover:text-[#cf3434] ml-[15px]' }}">Introduction</a>
