@@ -1,7 +1,7 @@
 <div class="flex flex-col">
     <div class="flex flex-row h-[100px]">
        <div class="mt-[10px]">
-            <img src="{{ asset('images/Logo.png') }}">
+            <img src="{{ asset('images/Logo1.jpg') }}" class="w-[200px] h-[70px] ml-[30px]">
        </div>
        <div>
             <div class="flex flex-row pt-[30pt] pl-[480px] text-[#500000] font-sans font-bold text-xl">

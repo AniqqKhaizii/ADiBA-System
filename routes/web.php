@@ -6,6 +6,7 @@ use App\Http\Livewire\Introduction;
 use App\Http\Livewire\Operational;
 use App\Http\Livewire\Strategic;
 use App\Http\Livewire\Templates;
+use App\Http\Livewire\Tools;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\Template\Template;
 
@@ -40,3 +41,6 @@ Route::get('/analytical', Analytical::class);
 Route::get('/strategic', Strategic::class);
 
 Route::get('/templates', Templates::class);
+
+Route::get('/tools', Tools::class);
+
