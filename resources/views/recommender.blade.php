@@ -1,4 +1,2 @@
-
-
 <livewire:recommender/>
 
