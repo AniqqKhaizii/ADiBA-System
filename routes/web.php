@@ -1,9 +1,12 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Livewire\Analytical;
 use App\Http\Livewire\Recommender;
 use App\Http\Livewire\Introduction;
 use App\Http\Livewire\Operational;
+use App\Http\Livewire\RecommenderExample;
+use App\Http\Livewire\RecommenderSelected;
 use App\Http\Livewire\Strategic;
 use App\Http\Livewire\Templates;
 use App\Http\Livewire\Tools;
@@ -31,6 +34,9 @@ Route::get('/tutorials', function () {
 });
 
 Route::get('/recommender', Recommender::class);
+Route::get('/example', RecommenderExample::class);
+Route::get('/selected/{id}', [DashboardController::class, 'getMetricsDetail'])
+        ->name('selected');;
 
 Route::get('/introduction', Introduction::class);
 
