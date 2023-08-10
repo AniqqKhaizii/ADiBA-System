@@ -98,7 +98,7 @@
             </div>
             <div class="flex flex-col border rounded-lg ml-[30px] w-[350px] h-[390px] text-center items-center py-[10px]">
                 <span class="font-bold text-2xl">
-                    Forum and Community
+                    Data Collection
                 </span>
                 <div class="my-[20px]" >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-[50px] h-[50px]">

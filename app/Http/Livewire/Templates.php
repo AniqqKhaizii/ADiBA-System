@@ -17,10 +17,25 @@ class Templates extends Component
         } else {
             
             if ($this->industry == "finance" && $this->dashboardType == "operational") {
-            $this->templates = "financeOperational";
+                $this->templates = "financeOperational";
+            }
+            elseif ($this->industry == "finance" && $this->dashboardType == "analytical") {
+                $this->templates = "financeAnalytical";
+            }
+            elseif ($this->industry == "finance" && $this->dashboardType == "strategic") {
+                $this->templates = "financeStrategic";
+            }
+            elseif ($this->industry == "healthcare" && $this->dashboardType == "operational") {
+                $this->templates = "healthcareOperational";
+            }
+            elseif ($this->industry == "healthcare" && $this->dashboardType == "analytical") {
+                $this->templates = "healthcareAnalytical";
+            }
+            elseif ($this->industry == "healthcare" && $this->dashboardType == "strategic") {
+                $this->templates = "healthcareStrategic";
+            }
         }
         return $this->templates;
-        }
     }
 
     public function render()

@@ -10,6 +10,9 @@
   <script defer src="https://unpkg.com/@alpinejs/focus@3.x.x/dist/cdn.js"></script>
   <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="/vendor/livewire-charts/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js" charset="utf-8"></script>
 
   @livewireStyles
 </head>
@@ -79,7 +82,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="pr-[3px] w-[30px] h-[30px]">
                     <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
                     </svg>
-                    <span class="ml-[9px]">Forum & Community</span>
+                    <a href="{{ url('dataCollection') }}" class="{{  (Route::getCurrentRoute()->uri() == 'dataCollection') ? 'text-[#cf3434] ml-[15px]' : 'hover:text-[#cf3434] ml-[15px]' }}">Data Collection</a>
                 </button>
 
                 <button class="my-[20px] flex flex-row text-xl text-white text-center font-bold py-[10px] rounded-lg w-fill h-[50px]">
